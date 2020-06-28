@@ -4625,3 +4625,14 @@
      margin: 0 auto;
 }
 
+.numberInput {
+    outline: none;
+    border: 3;
+    background: #ffffff;
+    font-size: 100%;
+    color: black;
+    max-width: 100px;
+}
+
+
+
