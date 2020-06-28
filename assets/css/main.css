@@ -17,9 +17,6 @@
 	}
 
 
-	
-	
-
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -4436,4 +4433,195 @@
 			}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.padding-top-1-rem {
+     padding-top: 1rem;
+}
+ .padding-top-3-rem {
+     padding-top: 3rem;
+}
+ .padding-bottom-1-rem {
+     padding-bottom: 1rem;
+}
+ .padding-bottom-3-rem {
+     padding-bottom: 3rem;
+}
+ .margin-bottom-6-rem {
+     margin-bottom: 6rem;
+}
+.margin-top-3-rem {
+    margin-top: 3rem;
+}
+.padding-bottom-6-rem {
+    padding-bottom: 6rem;
+}
+ .font-700 {
+     font-weight: 700;
+}
+ .font-500 {
+     font-weight: 500;
+}
+ .flex {
+     display: flex;
+}
+ .justify-center {
+     justify-content: center;
+}
+ .space-evenly {
+     justify-content: space-evenly;
+}
+ .align-items-center {
+     align-items: center;
+}
+ .main {
+     width: 90%;
+     margin: 0 auto;
+}
+ .center {
+     margin: 0 auto;
+}
+ .border-bottom {
+     border-bottom: 3px solid #ffffff;
+}
+ .inputWrapper {
+     font-size: 110%;
+}
+ .small {
+     font-size: 90%;
+}
+ .text-align-center {
+     text-align: center;
+}
+ @media all and (max-width: 1200px) {
+     .content {
+         display: block;
+    }
+     .content > staking {
+         width: 50%;
+         margin: 1rem auto 1rem auto;
+    }
+}
+ @media all and (max-width: 960px) {
+     .content > staking {
+         width: 70%;
+    }
+}
+ @media all and (max-width: 700px) {
+     .content > staking {
+         width: 100%;
+    }
+     .subtitle {
+         font-size: 100%;
+    }
+     .balanceInfo {
+         flex-direction: column;
+    }
+     .contractInfo, .userInfo {
+         width: 90%;
+         margin: 0 auto;
+         padding: 1rem;
+    }
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ a {
+     color: white;
+     text-decoration: none;
+     text-shadow: 2px 2px 4px #5a5a5a;
+}
+ html {
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     text-shadow: 2px 2px 4px #8a8a8a;
+}
+
+
+
+ .balanceInfo {
+     background: #000000;
+     color: rgba(255, 255, 255, 0.8);
+     font-size: 125%;
+}
+ .content {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 3rem;
+}
+ .staking {
+     background: #000000;
+     padding: 3rem;
+     border-radius: 5px;
+     max-width: 600px;
+     margin: 0 auto;
+     -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+ .boxHeading {
+     font-weight: 700;
+     font-size: 125%;
+     padding: 0 0 0.5rem 0;
+     margin: 0 0 1rem 0;
+}
+ .button {
+     cursor: default;
+}
+ .disabled {
+     cursor: not-allowed;
+}
+ .reflink {
+     width: 100%;
+     overflow: hidden;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.8);
+}
+ .credits {
+     width: 90%;
+     margin: 0 auto;
+}
 
